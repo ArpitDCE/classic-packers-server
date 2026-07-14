@@ -3,7 +3,7 @@ export const staticProducts = [
     id: '1',
     name: 'Regular Slotted Container (RSC)',
     description: 'Sabse aam aur har tarah ki shipping ke liye upyukt box style.',
-    imageUrl: 'https://tse2.mm.bing.net/th/id/OIP.2-Oz_r5uU9VPfKlfgwqd0QHaEs?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    imageUrl: 'C:/Users/hp/Desktop/ClassicPackers/public/rsc.jpg',
     specifications: {
       Material: 'High-quality corrugated paperboard',
       Length: '0.5m',
