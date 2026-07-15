@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve static files (like index.html) from the "public" folder
-app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // API Route remains accessible
 app.get('/api/joke', async (req, res) => {
