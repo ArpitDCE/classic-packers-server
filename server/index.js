@@ -29,8 +29,6 @@ app.use((req, res) => {
   //  res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-});
+module.exports = app;
 
 
