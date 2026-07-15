@@ -25,10 +25,10 @@ app.get('/api/joke', async (req, res) => {
 
 // Send React for every other route
 app.use('/',(req, res) => {
-    res.send("serrver runnig");
-    //res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+
