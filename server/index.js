@@ -24,7 +24,7 @@ const PORT = 3000;
 //});
 
 // Send React for every other route
-app.use('/',(req, res) => {
+app.use((req, res) => {
     res.send('Hello from the server!');
   //  res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
